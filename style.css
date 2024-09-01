@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+body{
+    background-color: black
+    ;
+}
+.main{
+    background-image: url("images/bg.jpg.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: none;
+    background-size: max(1200px,100vw);
+}
+.main .box{
+    height:70vh;
+
+    width: 100%;
+    opacity:0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.main .flex{
+    display: flex;
+    margin: auto;
+    max-width: 
+    60vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    
+    width: 114px;
+    z-index: 10;
+
+    position: relative;
+}
+nav button{
+    z-index: 10;
+    position: relative;
+}
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:calc(100% );
+    position: relative;
+    flex-direction: column;
+    gap: 23px;
+    padding:  0 23px;
+
+
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero >:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero >:nth-child(3){
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(66, 66, 66);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.main input{
+    padding: 7px 101px 8px 14px ;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(23,23,23,0.5);
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 
+    3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    
+}
+
+.first{
+    display: flex;
+    justify-content: center ;
+    color:white;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secimage{
+    position: relative;
+}
+.secimage img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    
+    
+}
+.secimage video{
+    position: absolute;
+    top: 61px;
+    right: 54px;
+    height: 25vh;
+    
+}
+.a{
+    display: flex;
+    flex-direction: column;
+}
+.ab:nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    
+    
+
+}
+.bc:nth-child(1){
+    font-weight: 400;
+    font-size: 30px;
+}
+.third{
+    display: flex;
+    justify-content: center ;
+    color:white;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+}
+.ab:nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    
+    
+
+}
+.third img{
+    width: 35vw;
+    
+}
+.faq{
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 46px;
+}
+.faqx{
+    display: flex;
+    background-color: grey;
+    padding: 24px;
+    max-width: 80vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.abd{
+    text-align: center;
+    font-size: 18px;
+}
+.input {
+    padding: 7px 101px 8px 14px ;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(23,23,23,0.5);
+}
